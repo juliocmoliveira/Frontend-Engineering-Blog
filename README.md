@@ -32,7 +32,7 @@ Settings > API Keys >
 
 Add API Key >
 
-![alt text](images/image-4.png)
+![alt text](images/image-1.png)
 
 Create API Key (Atribua um nome e uma descrição) >
 
@@ -40,7 +40,7 @@ Create API Key (Atribua um nome e uma descrição) >
 
 Serão gerados um Space ID e um access token. Esses dados serão importantes para configuração posterior.
 
-![alt text](images/image-3.png)
+![alt text](images/image-4.png)
 
 #### Configuração de variáveis de ambiente do Contentful no projeto:
 
