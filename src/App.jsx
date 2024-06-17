@@ -1,7 +1,7 @@
-import Home from "./components/pages/Home";
+import Post from "./components/pages/Post";
 
 function App() {
-  return <Home/>
+  return <Post/>
 }
 
 export default App;
