@@ -1,8 +1,10 @@
 function Header() {
     return (
-        <header>
-            <h1>My Blog</h1>
-        </header>
+        <nav className="navbar bg-body-tertiary">
+            <div className="container-fluid">
+                <span className="navbar-brand mb-0 h1">My Blog</span>
+            </div>
+        </nav>
     )
 }
 
