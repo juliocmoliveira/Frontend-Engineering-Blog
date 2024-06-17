@@ -8,6 +8,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/pages/Home';
 import Post from './components/pages/Post';
+import AllPosts from './components/pages/AllPosts';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,11 @@ const router = createBrowserRouter([
   {
     path: "post/:slug",
     element: <Post/>,
+    errorElement: <Home />
+  },
+  {
+    path: "allPosts/",
+    element: <AllPosts/>,
     errorElement: <Home />
   },
 ]);
