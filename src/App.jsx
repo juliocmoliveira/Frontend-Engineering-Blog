@@ -1,13 +1,7 @@
-import Layout from "./components/Layout";
+import Home from "./components/pages/Home";
 
 function App() {
-  return (
-    <Layout>
-        <main>
-          <p>Bem-vindo ao nosso blog!</p>
-        </main>
-    </Layout>
-  )
+  return <Home/>
 }
 
 export default App;
