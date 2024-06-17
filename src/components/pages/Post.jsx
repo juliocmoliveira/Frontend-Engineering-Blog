@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Layout from "../Layout";
 
 function Post() {
@@ -11,9 +13,9 @@ function Post() {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel necessitatibus dolore facilis id molestiae optio aut in, cupiditate reprehenderit nihil ipsum quidem inventore nam commodi totam obcaecati incidunt, error blanditiis.
                         </div>
 
-                        <a href="#" className="btn btn-primary mt-4">
+                        <Link to="/" className="btn btn-primary mt-4">
                             Voltar para a home
-                        </a>
+                        </Link >
                     </div>
                 </div>
             </main>

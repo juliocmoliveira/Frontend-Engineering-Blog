@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import PropTypes from 'prop-types';
 
 function Card({ title, text, link = "#", linkText = "Ver post" }) {
@@ -6,7 +8,7 @@ function Card({ title, text, link = "#", linkText = "Ver post" }) {
         <div className="card-body">
             <h3 className="card-title"> { title } </h3>
             <p className="card-text"> { text } </p>
-            <a href={ link } className="btn btn-primary"> { linkText } </a>
+            <Link to={ link } className="btn btn-primary"> { linkText } </Link>
         </div>
     </div>
     );

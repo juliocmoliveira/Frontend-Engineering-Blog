@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Card from "../Card";
 import Layout from "../Layout";
 
@@ -15,7 +17,7 @@ function Home() {
                             text={ "Texto do post 1" }
                         />
 
-                        <a href="#" className="btn btn-dark mt-4"> Ver todos os posts </a>
+                        <Link to="/post/algumacoisa" className="btn btn-dark mt-4"> Ver todos os posts </Link>
 
                     </main>
 
