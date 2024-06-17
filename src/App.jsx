@@ -1,13 +1,12 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Layout from "./components/Layout";
 
 function App() {
   return (
-    <>
-      <Header title="Título do Blog" />
-      <h2>Hello React!</h2>
-      <Footer></Footer>
-    </>
+    <Layout>
+        <main>
+          <p>Bem-vindo ao nosso blog!</p>
+        </main>
+    </Layout>
   )
 }
 

@@ -13,6 +13,6 @@ function Header({ title = "My Blog" }) {
 }
 Header.propTypes = {
     title: PropTypes.string.isRequired
-  };
+};
 
 export default Header;

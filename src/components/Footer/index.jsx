@@ -11,6 +11,6 @@ function Footer({ text = '© 2024 FIAP, Inc' }) {
 }
 Footer.propTypes = {
     text: PropTypes.string.isRequired
-  };
+};
 
 export default Footer;
