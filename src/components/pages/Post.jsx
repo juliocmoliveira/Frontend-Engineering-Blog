@@ -29,6 +29,7 @@ function Post() {
         getPost();
     }, [] );
 
+    
     return (
         <Layout>
             <main className="container my-4">
