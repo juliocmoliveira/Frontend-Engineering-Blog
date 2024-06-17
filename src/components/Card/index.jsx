@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 function Card({ title, text, link = "#", linkText = "Ver post" }) {
     return (
-        <div className="card">
+        <div className="card mb-3">
         <div className="card-body">
             <h3 className="card-title"> { title } </h3>
             <p className="card-text"> { text } </p>
